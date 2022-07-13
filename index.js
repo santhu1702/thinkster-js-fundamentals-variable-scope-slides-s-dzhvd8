@@ -10,3 +10,11 @@ function hi() {
   console.log(`hi ${name}`);
 }
 hi();
+/// Function Scope
+
+function info() {
+  var cource = 'javascript fundamntels';
+  console.log(cource);
+}
+info();
+console.log(cource);
