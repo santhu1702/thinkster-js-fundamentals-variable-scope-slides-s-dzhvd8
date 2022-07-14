@@ -17,4 +17,4 @@ function info() {
   console.log(cource);
 }
 info();
-console.log(cource);
+// console.log(cource); -- It will give error Courece scope is in fuction it is not accesble
